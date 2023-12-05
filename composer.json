@@ -1,13 +1,13 @@
 {
-  "name": "cvy/util-wp-custom-post-type",
+  "name": "cvy/util-wp-post-types",
   "autoload": {
     "psr-4": {
-      "Cvy\\WP\\CustomPostType\\": "src/"
+      "Cvy\\WP\\PostTypes\\": "src/"
     }
   },
   "require": {
-    "cvy/util-wp-objects-type-wrapper": "^1",
-    "cvy/util-wp-posts-query": "^1",
-    "cvy/util-wp-post": "^1"
+    "cvy/util-wp-objects-type-wrapper": "^2.",
+    "cvy/util-wp-posts-query": "^1.",
+    "cvy/util-wp-post": "^1."
   }
 }
