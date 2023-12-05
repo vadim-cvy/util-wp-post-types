@@ -1,11 +1,11 @@
 <?php
-namespace Cvy\WP\PostType;
+namespace Cvy\WP\PostTypes;
 
 use Cvy\WP\PostsQuery\PostsQuery;
 
 use Cvy\WP\Post\Post;
 
-abstract class PostType extends \Cvy\WP\ObjectsTypeWrap\ObjectsTypeWrapper
+abstract class PostType extends \Cvy\WP\ObjectsTypeWrapper\ObjectsTypeWrapper
 {
   static public function get_label_single() : string
   {
