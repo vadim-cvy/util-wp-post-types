@@ -1,5 +1,5 @@
 <?php
-namespace Cvy\WP\PostType;
+namespace Cvy\WP\PostTypes;
 use \Exception;
 
 if ( ! defined( 'ABSPATH' ) ) exit;
