@@ -1,8 +1,8 @@
 {
-  "name": "cvy/util-wp-custom-post-type",
+  "name": "cvy/util-wp-post-types",
   "autoload": {
     "psr-4": {
-      "Cvy\\WP\\CustomPostType\\": "src/"
+      "Cvy\\WP\\PostTypes\\": "src/"
     }
   },
   "require": {
