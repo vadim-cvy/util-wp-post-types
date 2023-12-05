@@ -6,8 +6,8 @@
     }
   },
   "require": {
-    "cvy/util-wp-objects-type-wrapper": "^1",
-    "cvy/util-wp-posts-query": "^1",
-    "cvy/util-wp-post": "^1"
+    "cvy/util-wp-objects-type-wrapper": "^2.",
+    "cvy/util-wp-posts-query": "^1.",
+    "cvy/util-wp-post": "^1."
   }
 }
