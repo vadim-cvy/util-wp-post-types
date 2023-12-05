@@ -19,7 +19,7 @@ abstract class PostType extends \Cvy\WP\ObjectsTypeWrap\ObjectsTypeWrapper
 
   static public function get_original() : \WP_Post_Type
   {
-    return get_post_type_object( $this->get_slug() );
+    return get_post_type_object( static::get_slug() );
   }
 
   static public function wrap_one( int $post_id ) : Post
